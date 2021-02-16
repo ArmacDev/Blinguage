@@ -1,0 +1,19 @@
+:host{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+img{
+  width: 120px;
+  margin-top: 10px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  li:not(:last-child) {
+    margin-right: 20px;
+  }
+}
